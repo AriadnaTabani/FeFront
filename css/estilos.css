@@ -1,0 +1,57 @@
+body {
+    background-color: silver;
+}
+.principal {
+    color: darkblue;
+    font-size: 75px;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+.subtitulos {
+    color: darkblue;
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+.pasoapaso {
+    color: darkblue;
+    font-size: 43px;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+header {
+    background-color: whitesmoke;
+    border: 5px darkblue solid;
+
+}
+nav {
+    background-color: whitesmoke;
+    border: 5px darkblue solid;
+    text-align: center;
+}
+footer {
+    background-color: whitesmoke;
+    border: 5px darkblue solid;
+
+}
+
+.iconowhats {width: 75px;
+position: fixed;
+bottom: 25px;
+right: 25px;
+}
+
+.iconoface {width: 32px;}
+.iconoinstagram {width: 32px;}
+.iconotwit {width: 32px;}
+.iconowhatsapp {width: 32px;}
+.iconoyoutube {width: 32px;}
+
+
+
+
