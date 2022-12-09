@@ -1,5 +1,16 @@
+
 body {
+    font-family: 'Roboto Condensed', sans-serif;
     background-color: silver;
+}
+#contenedorprincipal {
+    width: 1000px;
+    margin: auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    background-color: silver;
+    border-radius: 22px;
+    overflow: 22px;
 }
 .principal {
     width: 100%;
@@ -15,6 +26,18 @@ body {
     justify-content: space-around;
     flex-flow: wrap;
 }
+.botóncontacto{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    margin-right: 32px;
+}
+a:hover {
+    color: chartreuse;
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+}
 .recetas {
    width: 100%;
     height: auto;
@@ -24,6 +47,30 @@ body {
     justify-content: space-around;
     flex-flow: wrap;
     margin: 22px;
+}
+#contenido {
+    width: 950px;
+    height: 930px;
+    background-color: gray;
+    margin-top: 10px;
+    margin-left: 22px;
+    margin-bottom: 22px;
+    float: left;
+}
+.videosymapa {
+    width: 350px;
+    height: 930px;
+    background-color: lightgrey;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    float: right;
+}
+.tituloaside {
+    color: darkblue;
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: solid;
 }
 .subtitulos {
     color: darkblue;
@@ -35,7 +82,7 @@ body {
 
 .pasoapaso {
     color: darkblue;
-    font-size: 43px;
+    font-size: 35px;
     font-weight: bolder;
     font-style: italic;
     text-decoration: underline;
@@ -71,8 +118,8 @@ nav {
 
 .iconowhats {width: 75px;
 position: fixed;
-bottom: 45px;
-right: 45px;
+bottom: 32px;
+right: 32px;
 }
 
 footer {
@@ -87,7 +134,7 @@ footer {
     border: 5px darkblue solid;
     margin: 22px;
 }
-.contenedor {
+.contenedorprincipal {
     flex-direction: row;
 }
 .redessociales {
@@ -109,6 +156,22 @@ footer {
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
+}
+a:hover {
+    color: chartreuse;
+}
+.iralindex {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    font-family: 'Rubik 80s Fade', cursive;
+   font-size: 22px;
+    
+}
+a:hover {
+    color: chartreuse;
+    
 }
 
 
