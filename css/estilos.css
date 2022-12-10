@@ -3,13 +3,13 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     background-color: silver;
 }
+
 #contenedorprincipal {
-    width: 1000px;
+    width: 950x;
     margin: auto;
     margin-top: 22px;
     margin-bottom: 22px;
     background-color: silver;
-    border-radius: 22px;
     overflow: 22px;
 }
 .principal {
@@ -26,12 +26,16 @@ body {
     justify-content: space-around;
     flex-flow: wrap;
 }
+.epigrafe {
+    font-size: 32px;
+    color: darkblue;
+}
 .botóncontacto{
     width: 55%;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
-    margin-right: 32px;
+    margin-left: 32px;
 }
 a:hover {
     color: chartreuse;
@@ -46,20 +50,20 @@ a:hover {
     flex-direction: row;
     justify-content: space-around;
     flex-flow: wrap;
-    margin: 22px;
 }
 #contenido {
     width: 950px;
-    height: 930px;
+    height: 950px;
     background-color: gray;
     margin-top: 10px;
-    margin-left: 22px;
     margin-bottom: 22px;
     float: left;
+    overflow-x: auto;
 }
+    
 .videosymapa {
     width: 350px;
-    height: 930px;
+    height: 950px;
     background-color: lightgrey;
     margin-top: 10px;
     margin-bottom: 22px;
@@ -98,7 +102,6 @@ header {
     align-items: center;
     flex-flow: wrap;
     border: 5px darkblue solid;
-    margin: 22px;
 
 }
 .logo {
@@ -118,8 +121,8 @@ nav {
 
 .iconowhats {width: 75px;
 position: fixed;
-bottom: 32px;
-right: 32px;
+bottom: 33px;
+right: 20px;
 }
 
 footer {
@@ -132,7 +135,6 @@ footer {
     align-items: center;
     flex-flow: wrap;
     border: 5px darkblue solid;
-    margin: 22px;
 }
 .contenedorprincipal {
     flex-direction: row;
@@ -167,12 +169,39 @@ a:hover {
     flex-flow: wrap;
     font-family: 'Rubik 80s Fade', cursive;
    font-size: 22px;
-    
+
 }
 a:hover {
     color: chartreuse;
     
 }
+@media screen and (max-width: 960px) {
+    #contenido {
+        width: 100%;
+    }
+    #videosymapa {
+        width: 100%;
+    }
+}
+@media (max-width:600px){
+    body {
+        background-color: cadetblue;
+    }
+}
+@media (max-width: 600px){
+    .principal {
+        color: blue;
+        background-color: azure;
+    }
+}
+@media (max-width: 600px) {
+    .logo {
+        display: none;
+    }
+}
+
+   
+
 
 
 
